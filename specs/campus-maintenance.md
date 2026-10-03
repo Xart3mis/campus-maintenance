@@ -82,7 +82,19 @@ The backend changes status from `open` to `resolved`.
 
 ## Data model diagram
 
-<!-- Paste the Mermaid ER diagram produced in Phase 2 here. -->
+```mermaid
+erDiagram
+    MaintenanceRequest {
+        ObjectId id PK
+        string title
+        string description
+        string location
+        RequestCategory category
+        RequestStatus status
+        datetime createdAt
+        datetime updatedAt
+    }
+```
 
 ## Team slices
 
