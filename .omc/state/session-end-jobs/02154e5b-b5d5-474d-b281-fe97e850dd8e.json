@@ -1,0 +1,335 @@
+{
+  "version": 1,
+  "jobId": "d40b7343-cfd0-4c39-8508-7852ae125f40",
+  "sessionId": "02154e5b-b5d5-474d-b281-fe97e850dd8e",
+  "scopeKey": "46ce648b2c43980ce844c7864ad3181a0abd59e9a7df97c01fa6a431a7d70875",
+  "revision": 41,
+  "createdAt": "2026-10-03T08:13:59.483Z",
+  "updatedAt": "2026-10-03T08:14:00.414Z",
+  "producerGraceExpiresAt": "2026-10-03T08:14:29.484Z",
+  "bestEffortDeadlineAt": "2026-10-03T08:15:20.484Z",
+  "producers": {
+    "core": {
+      "state": "sealed",
+      "intentKey": "abb308beb9cf53e18105dfa42e399d6f8e6906b4155a337e2da0973d5557ce80",
+      "payloadDigest": "abb308beb9cf53e18105dfa42e399d6f8e6906b4155a337e2da0973d5557ce80",
+      "sealedAt": "2026-10-03T08:13:59.528Z",
+      "sealedBy": "foreground"
+    },
+    "wiki": {
+      "state": "no-op",
+      "sealedAt": "2026-10-03T08:13:59.483Z",
+      "sealedBy": "wiki-producer"
+    }
+  },
+  "actions": {
+    "foreground-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 0,
+      "idempotencyKey": "febf6dba2f2536433960a07f7cedce72e946b43ced0896570df80f017b8914d2",
+      "payload": {
+        "transcriptPath": "/home/sico/.claude/projects/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e.jsonl",
+        "cwd": "/home/sico/Code/Campus Maintenance DemoKit",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "02154e5b-b5d5-474d-b281-fe97e850dd8e",
+          "transcript_path": "/home/sico/.claude/projects/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e.jsonl",
+          "cwd": "/home/sico/Code/Campus Maintenance DemoKit",
+          "scratchpad_dir": "/tmp/claude-1000/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e/scratchpad",
+          "prompt_id": "793debbf-6f76-45ed-8c69-2e4895b4b9db",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "metrics": {
+          "session_id": "02154e5b-b5d5-474d-b281-fe97e850dd8e",
+          "ended_at": "2026-10-03T08:13:59.480Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        },
+        "initialTeamNames": [],
+        "openClawEnabled": false,
+        "openClawRouting": {},
+        "foregroundResult": {
+          "removedTransientFiles": 1,
+          "completedAt": "2026-10-03T08:13:59.527Z"
+        }
+      },
+      "budgetMs": 9000,
+      "completedAt": "2026-10-03T08:13:59.528Z",
+      "lastOutcomeCode": "completed"
+    },
+    "wiki-capture": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 0,
+      "idempotencyKey": "1719cd1ef5b51e0269b78c4cb8c9308c9c1f7b82fd1c067fc034c060f23863f5",
+      "payload": {},
+      "budgetMs": 9000,
+      "completedAt": "2026-10-03T08:13:59.483Z"
+    },
+    "team-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "cee6ac31df545408e1e822247ac249b3f8182a98a5fe8e448ae3b251e55bdee1",
+      "payload": {
+        "transcriptPath": "/home/sico/.claude/projects/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e.jsonl",
+        "cwd": "/home/sico/Code/Campus Maintenance DemoKit",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "02154e5b-b5d5-474d-b281-fe97e850dd8e",
+          "transcript_path": "/home/sico/.claude/projects/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e.jsonl",
+          "cwd": "/home/sico/Code/Campus Maintenance DemoKit",
+          "scratchpad_dir": "/tmp/claude-1000/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e/scratchpad",
+          "prompt_id": "793debbf-6f76-45ed-8c69-2e4895b4b9db",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "metrics": {
+          "session_id": "02154e5b-b5d5-474d-b281-fe97e850dd8e",
+          "ended_at": "2026-10-03T08:13:59.480Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        },
+        "initialTeamNames": [],
+        "openClawEnabled": false,
+        "openClawRouting": {}
+      },
+      "budgetMs": 9000,
+      "claimedAt": "2026-10-03T08:13:59.568Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "8aefb0fa-d1c3-4e61-afaa-53a6239d1451",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-03T08:14:09.551Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-03T08:13:59.752Z"
+    },
+    "python-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "1f1370c4ac056606059d517e2f106b602d8cbcb04587b3fcc5f3b9f89e649cd0",
+      "payload": {
+        "transcriptPath": "/home/sico/.claude/projects/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e.jsonl",
+        "cwd": "/home/sico/Code/Campus Maintenance DemoKit",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "02154e5b-b5d5-474d-b281-fe97e850dd8e",
+          "transcript_path": "/home/sico/.claude/projects/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e.jsonl",
+          "cwd": "/home/sico/Code/Campus Maintenance DemoKit",
+          "scratchpad_dir": "/tmp/claude-1000/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e/scratchpad",
+          "prompt_id": "793debbf-6f76-45ed-8c69-2e4895b4b9db",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "metrics": {
+          "session_id": "02154e5b-b5d5-474d-b281-fe97e850dd8e",
+          "ended_at": "2026-10-03T08:13:59.480Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        },
+        "initialTeamNames": [],
+        "openClawEnabled": false,
+        "openClawRouting": {}
+      },
+      "budgetMs": 9000,
+      "claimedAt": "2026-10-03T08:13:59.758Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "02064ced-566b-4dae-beca-9f388b1e03a7",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-03T08:14:09.551Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-03T08:13:59.875Z"
+    },
+    "reply-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "0b3a8b47c28b26d56aca004d4f572b96c118f16819c0d35162418816f9a5420a",
+      "payload": {
+        "transcriptPath": "/home/sico/.claude/projects/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e.jsonl",
+        "cwd": "/home/sico/Code/Campus Maintenance DemoKit",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "02154e5b-b5d5-474d-b281-fe97e850dd8e",
+          "transcript_path": "/home/sico/.claude/projects/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e.jsonl",
+          "cwd": "/home/sico/Code/Campus Maintenance DemoKit",
+          "scratchpad_dir": "/tmp/claude-1000/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e/scratchpad",
+          "prompt_id": "793debbf-6f76-45ed-8c69-2e4895b4b9db",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "metrics": {
+          "session_id": "02154e5b-b5d5-474d-b281-fe97e850dd8e",
+          "ended_at": "2026-10-03T08:13:59.480Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        },
+        "initialTeamNames": [],
+        "openClawEnabled": false,
+        "openClawRouting": {}
+      },
+      "budgetMs": 9000,
+      "claimedAt": "2026-10-03T08:13:59.881Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "4e3f8c01-9c77-45ea-8906-d9e1cdd805fd",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-03T08:14:09.551Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-03T08:14:00.001Z"
+    },
+    "callback": {
+      "class": "best-effort",
+      "phase": "deferred-best-effort",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "d068ede2655bf89e0c0950e087d0603d7dcf45538e94f20a654d08c6f4841895",
+      "payload": {
+        "transcriptPath": "/home/sico/.claude/projects/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e.jsonl",
+        "cwd": "/home/sico/Code/Campus Maintenance DemoKit",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "02154e5b-b5d5-474d-b281-fe97e850dd8e",
+          "transcript_path": "/home/sico/.claude/projects/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e.jsonl",
+          "cwd": "/home/sico/Code/Campus Maintenance DemoKit",
+          "scratchpad_dir": "/tmp/claude-1000/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e/scratchpad",
+          "prompt_id": "793debbf-6f76-45ed-8c69-2e4895b4b9db",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "metrics": {
+          "session_id": "02154e5b-b5d5-474d-b281-fe97e850dd8e",
+          "ended_at": "2026-10-03T08:13:59.480Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        },
+        "initialTeamNames": [],
+        "openClawEnabled": false,
+        "openClawRouting": {}
+      },
+      "budgetMs": 2000,
+      "claimedAt": "2026-10-03T08:14:00.007Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "42530dd6-58b4-4bcb-b156-d77986cb3b4b",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-03T08:14:09.551Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-03T08:14:00.110Z"
+    },
+    "notification": {
+      "class": "best-effort",
+      "phase": "deferred-best-effort",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "89c0438ff63097ce04beb60efb87292ff68a7af350a0ee331f3de9dbf42d62fc",
+      "payload": {
+        "transcriptPath": "/home/sico/.claude/projects/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e.jsonl",
+        "cwd": "/home/sico/Code/Campus Maintenance DemoKit",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "02154e5b-b5d5-474d-b281-fe97e850dd8e",
+          "transcript_path": "/home/sico/.claude/projects/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e.jsonl",
+          "cwd": "/home/sico/Code/Campus Maintenance DemoKit",
+          "scratchpad_dir": "/tmp/claude-1000/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e/scratchpad",
+          "prompt_id": "793debbf-6f76-45ed-8c69-2e4895b4b9db",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "metrics": {
+          "session_id": "02154e5b-b5d5-474d-b281-fe97e850dd8e",
+          "ended_at": "2026-10-03T08:13:59.480Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        },
+        "initialTeamNames": [],
+        "openClawEnabled": false,
+        "openClawRouting": {}
+      },
+      "budgetMs": 2000,
+      "claimedAt": "2026-10-03T08:14:00.115Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "032e7e5d-948a-46c0-8119-938693e83a6b",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-03T08:14:09.551Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-03T08:14:00.223Z"
+    },
+    "openclaw": {
+      "class": "best-effort",
+      "phase": "deferred-best-effort",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "31fe8f6e1cf204e27006de511df257326fdd98655122ca437013e8779ffc735b",
+      "payload": {
+        "transcriptPath": "/home/sico/.claude/projects/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e.jsonl",
+        "cwd": "/home/sico/Code/Campus Maintenance DemoKit",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "02154e5b-b5d5-474d-b281-fe97e850dd8e",
+          "transcript_path": "/home/sico/.claude/projects/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e.jsonl",
+          "cwd": "/home/sico/Code/Campus Maintenance DemoKit",
+          "scratchpad_dir": "/tmp/claude-1000/-home-sico-Code-Campus-Maintenance-DemoKit/02154e5b-b5d5-474d-b281-fe97e850dd8e/scratchpad",
+          "prompt_id": "793debbf-6f76-45ed-8c69-2e4895b4b9db",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "metrics": {
+          "session_id": "02154e5b-b5d5-474d-b281-fe97e850dd8e",
+          "ended_at": "2026-10-03T08:13:59.480Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        },
+        "initialTeamNames": [],
+        "openClawEnabled": false,
+        "openClawRouting": {}
+      },
+      "budgetMs": 2000,
+      "claimedAt": "2026-10-03T08:14:00.227Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "17bd88af-ad19-4581-b001-a4af6251fa89",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-03T08:14:09.551Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-03T08:14:00.404Z"
+    }
+  },
+  "owner": null,
+  "phase": "complete",
+  "completion": {
+    "completedAt": "2026-10-03T08:14:00.409Z",
+    "terminalDigest": "ce2f40a20759c47dff5a72f3693f2785efb60a15c3af47a5cfa5f7285843a819",
+    "terminalRevision": 40
+  }
+}
